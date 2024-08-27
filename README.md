@@ -1,4 +1,4 @@
-# vanillajs
+# practice vanillajs
 
 - `📁 baseball.js` : 숫자야구게임
 
