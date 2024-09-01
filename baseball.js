@@ -12,11 +12,6 @@ function playGame() {
     user = generateRandomNumber();
     checkValue(computer, user, attempt);
   }
-  
-  if (computer === user) {
-    console.log(`${attempt}번만에 맞히셨습니다.`);
-    console.log('게임을 종료합니다.');
-  }
 }
 
 function generateRandomNumber() {
@@ -51,8 +46,13 @@ function checkValue(computerNum, userNum, attempt) {
 }
 
 function getResult(computerNum, userNum, ball, strike, attempt) {
-  console.log(`${attempt}번째 시도 : ${userNum} (컴퓨터: ${computerNum})`)
+  console.log(`${attempt}번째 시도 : ${userNum}`)
   
+  if (strike === 3) {
+    console.log(`🎉${attempt}번째 시도 끝에 컴퓨터 숫자 ${computerNum}와 일치합니다!🎉`)
+    console.log('게임을 종료합니다.');
+    return 
+  }
   if (strike !== 0 && ball !== 0) {
     console.log(`${ball}B${strike}S`)
     return
