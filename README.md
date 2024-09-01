@@ -4,7 +4,8 @@
 
 <br/>
 
-![alt text](baseball.png)
+<img width="648" alt="스크린샷 2024-09-01 오후 6 22 37" src="https://github.com/user-attachments/assets/79a4d0b9-c581-49e7-a77f-4accdf3a9ca7">
+
   <br/>
 
   > 컴퓨터는 0과 9 사이의 **서로 다른 숫자** 3개를 무작위로 뽑습니다. 
